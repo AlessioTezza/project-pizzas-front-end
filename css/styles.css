@@ -121,7 +121,7 @@ font-family: 'Oswald',sans-serif;
 }
 .gallery li .box .button { 
   margin-top: 5px;
-  width: 100%;
+  width: 100%;/*100% WIDTH DEL LI*/
   padding: 7px;
   border: none;
   background: #0D7139;
@@ -131,4 +131,94 @@ font-family: 'Oswald',sans-serif;
   font-weight: 600;
   color:. #fff;
   font-family: "Work Sans", sans-serif;
+}
+footer {
+  background-color: #f8f9fa;
+  padding: 40px 20px 20px 20px;
+  font-family: "Oswald", sans-serif;
+  border-top: 1px solid #e1e8ee;
+  margin-top: 40px;
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-nav ul li {
+margin: 0 15px;/*margin para wrap*/
+}
+.footer-nav ul li a{
+text-decoration: none;
+font-size: 1rem;
+ font-weight: 500;
+ color: var(--color-nav);
+}
+
+
+.footer-nav ul li a:hover {
+  color: #e50c39;
+}
+
+.footer-social{
+
+ display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+
+}
+
+.footer-social i{
+   margin: 0 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--color-nav);
+}
+
+.footer-social i:hover {
+  color: #e50c39;
+}
+
+.footer-copyright{
+
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  padding-top: 20px;
+}
+@media (max-width: 960px) {
+
+ #header-container {
+    flex-direction: column;
+  }
+#header-container #logo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .gallery {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+ .gallery li {/*para[]palegos&ocupando*/
+  width: 100%;
+     justify-content: center;
+  }
+  .img-pizzas{
+
+    width: 100%;
+    /* Imagenes responsivas */
+    max-width: 100%;
+    /* Imagenes responsivas */
+    height: auto;
+
+}
 }
