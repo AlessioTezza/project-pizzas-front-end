@@ -28,8 +28,9 @@ Aplicación web que presenta un catalogo de pizzas con funcionalidad de carrito 
 
 ## Autor
 
--[@Thomas Oviedo] (https://www.github.com/WaisOwl)
+-[@Thomas Oviedo] (https://www.github.com/AlessioTezza)
 
 ## Licencia
 
 -[MIT](https://choosealicense.com/licenses/mit/)
+"# project-pizzas-front-end" 
