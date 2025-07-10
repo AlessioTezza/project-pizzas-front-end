@@ -102,6 +102,7 @@ nav ul li a:hover {
   /* 33.33% */
   padding: 10px;
 }
+/* Cambiamos el tamaño para que se pueda mostrar en el main. */
 
 .gallery li .box {
   padding: 6px 6px 30px 6px;
