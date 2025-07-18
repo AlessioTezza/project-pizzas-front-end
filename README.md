@@ -26,6 +26,10 @@ Aplicación web que presenta un catalogo de pizzas con funcionalidad de carrito 
 
 ![Pizzeria imagen 3](screen03.png)
 
+## Enlaces
+
+-[web del sitio] (https://peppy-dieffenbachia-361334.netlify.app/)
+
 ## Autor
 
 -[@Thomas Oviedo] (https://www.github.com/AlessioTezza)
